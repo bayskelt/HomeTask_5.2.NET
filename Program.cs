@@ -27,6 +27,7 @@ namespace HomeTask_5._2.NET
                 Console.Write($"Введіть {i + 1} елемент списку: ");
                 mas[i] = int.Parse(Console.ReadLine());
             }
+
             int maxi = Maximum(mas);
             Console.WriteLine($"Максимальний елемент: {maxi}");
         }
